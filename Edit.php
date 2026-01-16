@@ -2,7 +2,6 @@
 ini_set('display_errors', 1); 
 session_start();
 
-// التحقق من تسجيل الدخول
 if (!isset($_SESSION['username'])) {
     header("Location: loginForm.php");
     exit();
@@ -19,7 +18,6 @@ if(isset($_POST["update"])) {
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    // تحديث الرسالة والتقييم في نفس الوقت باستخدام Prepared Statement
     $stmt = $link->prepare("UPDATE contact SET message=?, rating=? WHERE username=?");
     $stmt->bind_param("sis", $message, $rating, $username); // s = string, i = integer, s = string
 
@@ -132,4 +130,5 @@ if(isset($_POST["update"])) {
             }
         </script>
     </body>
+
 </html>
