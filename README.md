@@ -122,9 +122,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 * CRUD operations
 * Session management
 
- |أكيد 👍
-هذا **README.md** جاهز ومنسق، تقدر تنسخه مباشرة وتحطه في مشروعك:
-
+ |
 
 
 # 🍕 Pizza Restaurant System
