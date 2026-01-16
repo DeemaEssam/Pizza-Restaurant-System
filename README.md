@@ -2,9 +2,7 @@
 
 |english | عربي |
 |-|-|
-|
-
-# 🍕 Pizza Restaurant System
+|# 🍕 Pizza Restaurant System
 
 ## 📌 Project Description
 
@@ -122,10 +120,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 * CRUD operations
 * Session management
 
- |
-
-
-# 🍕 Pizza Restaurant System
+ | # 🍕 Pizza Restaurant System
 
 ## 📌 وصف المشروع
 
