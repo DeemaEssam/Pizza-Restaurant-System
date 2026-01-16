@@ -21,5 +21,10 @@ CREATE TABLE contact (
 );
 
 
+ALTER TABLE contact
+ADD COLUMN rating TINYINT(1) NOT NULL DEFAULT 0 CHECK (rating BETWEEN 1 AND 5);
+
+
+
 http://localhost/Pizza/Pizza.html
 
