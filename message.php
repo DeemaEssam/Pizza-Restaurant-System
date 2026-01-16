@@ -1,10 +1,7 @@
 <?php
     ini_set('display_errors', 1);
     session_start();
-  // تشغيل الجلسة في أعلى الصفحة
-  session_start();
 
-  // التحقق من تسجيل الدخول
   if (!isset($_SESSION['username'])) {
       header("Location: login.php");
       exit();
@@ -136,4 +133,5 @@
             }
             </script>
     </body>
+
 </html>
