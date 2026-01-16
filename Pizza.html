@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>thin CRUST PIZZA</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+          <!-- external css -->
+          <link rel="stylesheet" href="Styles/projectStyle.css">
+          <script src="https://kit.fontawesome.com/6715d401a1.js" crossorigin="anonymous"></script>
+        </head>
+
+    <body>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <i class='fas fa-pizza-slice' style='font-size:24px;color:white'></i>
+          <a class="navbar-brand" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#About">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="logout.php">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- pages -->
+      
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <header class="bgimg w3-display-container w3-grayscale-min" id="home"></header>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>thin CRUST PIZZA.</h1>
+                <p>Delicious pizza prepared with love for everyone.</p>
+                <input type="button" value="See the menu" onclick="showMenu();">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <header class="bgimg w3-display-container w3-grayscale-min" id="home"></header>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Register now!.</h1>
+                <p>Register in our website to share with us your suggestion/opinions!.</p>
+                <input type="button" value="register" onclick="showReg();">
+              </div>
+            </div>
+          </div>
+            <div class="carousel-item">
+            <header class="bgimg w3-display-container w3-grayscale-min" id="home"></header>
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>See people's messags</h1>
+                <p>To ensure great service, we warmly welcome your suggestions and recommendations.</p>
+                <input type="button" value="messages" onclick="showTable();">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+        <!--About Container-->
+      <div class="w3-container w3-padding-64 w3-light-Gray w3-xlarge"><br>
+        <div class="w3-container w3-padding-64 w3-dark-grey w3-grayscale-min w3-xlarge">
+          <div class="w3-content">
+            <h1 class="w3-center w3-jumbo" style="margin-bottom:64px" id="About">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"></svg>
+              About
+            </h1>
+            <p>The Restaurant was founded in Jeddah city by Ms. Nada Khalefa, first branch was in 2019.</p>
+            <p><strong>The Chef?</strong> Ms. Nada herself</p>
+            <p>We are proud of our interiors.</p><br/>
+            <h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+              <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+              <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+              </svg><b> Opening Hours</b>
+            </h1>
+    
+            <div class="w3-row">
+              <div class="w3-col s6">
+                <p>Mon & Tue CLOSED</p>
+                <p>Wednesday 10.00 - 24.00</p>
+                <p>Thursday 10:00 - 24:00</p>
+              </div>
+              <div class="w3-col s6">
+                <p>Friday 10:00 - 12:00</p>
+                <p>Saturday 10:00 - 23:00</p>
+                <p>Sunday Closed</p>
+              </div>
+            </div>
+
+            <h1>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+              </svg><b> Location</b>
+            </h1>
+            <a href="https://goo.gl/maps/F2PwNr4oTPanoVQd7">Kingdom Saudi Arabia, Jeddah</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted fas fa-pizza-slice"> 2022 thin PIZZA</span>
+          </div>
+        </footer>
+      </div>
+      
+    </body>
+    <script>
+      function showMenu()
+      {
+          window.location.href = 'menu.html';
+          return false;
+      }
+
+      function showTable()
+      {
+          window.location.href = 'table.php';
+          return false;
+      }
+
+      function showContact()
+      {
+          window.location.href = 'https://deemaessam.github.io/projects/menu/message.html';
+          return false;
+      }
+
+      function showReg()
+      {
+          window.location.href = 'registerForm.php';
+          return false;
+      }
+
+      function showLogin()
+      {
+          window.location.href = 'loginForm';
+          return false;
+      }
+    </script>
+</html>
