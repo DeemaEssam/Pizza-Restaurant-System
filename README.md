@@ -2,9 +2,7 @@
 
 |english | عربي |
 |-|-|
-|:
-
----
+|
 
 # 🍕 Pizza Restaurant System
 
@@ -13,7 +11,7 @@
 **Pizza Restaurant System** is a web application for managing a pizza restaurant. It allows users to view the pizza menu, read messages and reviews from other users, and interact with the restaurant system.
 The project is built using **PHP** and **MySQL**, and it implements full **CRUD operations**.
 
----
+
 
 ## ✨ Features
 
@@ -38,7 +36,7 @@ The project is built using **PHP** and **MySQL**, and it implements full **CRUD 
     * Cannot delete messages
 * 🔐 Page protection using **Sessions**
 
----
+
 
 ## 🧩 Supported CRUD Operations
 
@@ -62,7 +60,7 @@ The system implements all **SQL CRUD commands**:
 
   * Delete a message (**Admin only**)
 
----
+
 
 ## 🗂️ Database Structure (Simplified)
 
@@ -78,7 +76,7 @@ The system implements all **SQL CRUD commands**:
   * `username`
   * `message`
 
----
+
 
 ## 🛠️ Technologies Used
 
@@ -88,7 +86,7 @@ The system implements all **SQL CRUD commands**:
 * XAMPP
 * Sessions
 
----
+
 
 ## 🚀 How to Run
 
@@ -105,7 +103,7 @@ The system implements all **SQL CRUD commands**:
    http://localhost/ProjectFolderName
    ```
 
----
+
 
 ## 🔒 Security Notes
 
@@ -113,7 +111,7 @@ The system implements all **SQL CRUD commands**:
 * Pages are **protected with sessions**
 * Only **Admins can delete messages**
 
----
+
 
 ## 👨‍💻 Summary
 
@@ -127,7 +125,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
  |أكيد 👍
 هذا **README.md** جاهز ومنسق، تقدر تنسخه مباشرة وتحطه في مشروعك:
 
----
+
 
 # 🍕 Pizza Restaurant System
 
@@ -136,7 +134,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 **Pizza Restaurant System** هو موقع ويب لإدارة مطعم بيتزا، يتيح عرض منيو البيتزا والتفاعل مع تعليقات وآراء المستخدمين حول المطعم.
 المشروع مبني باستخدام **PHP** و **MySQL** ويطبّق عمليات **CRUD** بشكل كامل.
 
----
+
 
 ## ✨ المميزات
 
@@ -158,7 +156,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
     * لا يظهر له زر الحذف
 * 🔐 حماية الصفحات باستخدام **Sessions**
 
----
+
 
 ## 🧩 العمليات المدعومة (CRUD)
 
@@ -182,7 +180,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 
   * حذف رسالة (للمسؤول Admin فقط)
 
----
+
 
 ## 🗂️ هيكل قاعدة البيانات (مختصر)
 
@@ -198,7 +196,6 @@ This project is a complete system for managing a pizza restaurant, demonstrating
   * username
   * message
 
----
 
 ## 🛠️ التقنيات المستخدمة
 
@@ -208,7 +205,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 * XAMPP
 * Sessions
 
----
+
 
 ## 🚀 طريقة التشغيل
 
@@ -225,7 +222,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
    http://localhost/ProjectFolderName
    ```
 
----
+
 
 ## 🔒 ملاحظات أمنية
 
@@ -233,7 +230,7 @@ This project is a complete system for managing a pizza restaurant, demonstrating
 * الصفحات محمية باستخدام Session
 * حذف الرسائل محصور على المستخدمين من نوع Admin
 
----
+
 
 ## 👨‍💻 الخلاصة
 
