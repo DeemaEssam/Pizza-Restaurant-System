@@ -1,5 +1,4 @@
 <?php
-  // تشغيل الجلسة في أعلى الصفحة
   session_start();
 
   // التحقق من تسجيل الدخول
@@ -8,20 +7,13 @@
       // exit();
       // لان حتى لو اليوزر مو داخل عادي يقدر يقرا تعليقات الناس بس مايقدر يكتب الا اذا دخل
   }
-
-  // عرض الأخطاء لتصحيح أي مشكلة
   ini_set('display_errors', 1);
 
-  // الاتصال بقاعدة البيانات
   $connection = mysqli_connect("localhost", "test", "test");
   $db = mysqli_select_db($connection, 'pizzarestaurant');
 
-  // استعلام لجلب كل البيانات من جدول contact
   $sql = "SELECT * FROM contact";
   $result = mysqli_query($connection, $sql);
-
-  // الآن يمكنك استخدام $_SESSION['username'] في الصفحة
-  // echo "Welcome, " . $_SESSION['username'];
 ?>
 
 <html>
@@ -230,4 +222,5 @@
       }
     </script>
   </body>
+
 </html>
